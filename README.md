@@ -17,4 +17,4 @@ Para o desafio, os usuários deverão:
 - CSS
 
 Para mais detalhes você pode olhar o [style guid](style-guide.md)
-Para visualizar o site funcionando clique [aqui]()
+Para visualizar o site funcionando clique [aqui](https://single-price-grid-component-henna-delta.vercel.app/)
