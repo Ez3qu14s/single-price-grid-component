@@ -2,7 +2,7 @@
 
 ![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
 
-## The challenge
+## O Desafio
 
 O desafio consiste em reproduzir o desafio [Single Price Grid Component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc) o mais parecido possível. Utilizando as tecnologias necessárias que achar necessário.
 
