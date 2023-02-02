@@ -1,0 +1,154 @@
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --Cyan-2: hsl(179, 36%, 55%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+h3 {
+  line-height: 1.5;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+
+  /* padding: 20px; */
+
+  font-family: "Karla", sans-serif;
+  background: var(--Light-Gray);
+}
+
+.grid-component {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 40px;
+
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+}
+
+.grid-component div {
+  padding: 40px;
+}
+
+.apresentacao {
+  background: #fff;
+  display: block;
+
+  grid-column: span 2;
+}
+
+h1 {
+  color: var(--Cyan);
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.apresentacao h3 {
+  color: var(--Bright-Yellow);
+}
+
+.apresentacao p {
+  color: var(--Grayish-Blue);
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.preco-informacoes {
+  background: var(--Cyan);
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.preco-informacoes p.preco-texto {
+  color: var(--Light-Gray);
+  margin-bottom: 15px;
+}
+
+.preco-informacoes .preco {
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.preco span {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+  color: var(--Light-Gray);
+}
+
+a {
+  display: grid;
+  align-self: end;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--Light-Gray);
+  background: var(--Bright-Yellow);
+  border-radius: 4px;
+  padding: 15px;
+}
+
+div.reset {
+  padding: 0 !important;
+}
+
+.porque {
+  background: var(--Cyan-2);
+  color: #fff;
+  line-height: 1.3;
+}
+
+.porque ul {
+  color: var(--Light-Gray);
+}
+
+@media (max-width: 680px) {
+  body {
+    font-size: 12px;
+    height: 100%;
+  }
+
+  .grid-component {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .grid-component div {
+    padding: 30px;
+  }
+
+  .apresentacao {
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 300px) {
+  .grid-component div {
+    padding: 20px;
+  }
+}
